@@ -59,9 +59,11 @@ a {
 
 .hero-image {
     width: 570px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;    
 }
 
-button {
+.hero-button {
     border: none;
     background: #3882f6;
     border-radius: 6px;
@@ -74,7 +76,7 @@ button {
 }
 
 .information {
-    margin: 72px;
+    margin: 60px;
 }
 
 .info-header {
@@ -89,7 +91,7 @@ button {
 .info-content {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 60px;
     margin-bottom: 150px;
 }
 
@@ -97,7 +99,7 @@ button {
     width: 200px;
 }
 
-img {
+.info-image {
     width: 200px;
     border: 5px solid #3882f6;
     border-radius: 20px;
@@ -107,4 +109,87 @@ img {
     text-align: center;
     font-size: 18px;
     color: #1f2937;
+}
+
+.quote {
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote-content {
+    width: 850px;
+    gap: 24px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 24px;
+}
+
+.quote-autor {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 24px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.call-content {
+    display: flex;
+    justify-content: space-evenly;
+    background: #3882f6;
+    border-radius: 6px;
+    width: 1300px;
+    padding: 48px 0;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.call-logo-text {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.call-other-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-button {
+border: 2px solid white;
+background: #3882f6;
+border-radius: 6px;
+color: white;
+font-weight: bold;
+width: 125px;
+font-size: 18px;
+padding: 5px;
+align-self: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #1f2937;
+    color: white;
+    font-size: 18px;
 }
