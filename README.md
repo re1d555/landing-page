@@ -1,1 +1,1 @@
-Current project: Landing Page from Foundation Course of The Odin Project, it's about to create an entire web page from provided design.
+Current project: Landing Page from Foundation Course of The Odin Project, it's about to create an entire web page from provided design with flexbox layout.
