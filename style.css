@@ -5,6 +5,11 @@ body {
     flex-direction: column;
 }
 
+button:active { 
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -79,6 +84,7 @@ a {
     width: 125px;
     font-size: 18px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .information {
@@ -95,6 +101,7 @@ a {
 .info-content {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 60px;
 }
 
@@ -112,6 +119,17 @@ a {
     text-align: center;
     font-size: 18px;
     color: #1f2937;
+}
+
+.info-button {
+    height: 50px;
+    border: 5px solid #FFD700;
+    border-radius: 50%;
+    font-size: 27px;
+    display: flex;
+    background: #1f2937;
+    color: white;
+    cursor: pointer;
 }
 
 .quote {
@@ -176,7 +194,7 @@ a {
 }
 
 .call-button {
-border: 2px solid white;
+ border: 2px solid #FFD700;
 background: #3882f6;
 border-radius: 6px;
 color: white;
@@ -185,6 +203,7 @@ width: 125px;
 font-size: 18px;
 padding: 5px;
 align-self: center;
+cursor: pointer;
 }
 
 .footer {
@@ -192,7 +211,7 @@ align-self: center;
     justify-content: center;
     align-items: center;
     height: 100px;
-    background: #1f2937;
-    color: white;
+    background: #FFD700;
+    color: #1f2937;
     font-size: 18px;
 }
